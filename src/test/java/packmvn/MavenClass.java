@@ -34,4 +34,13 @@ public class MavenClass {
         assertTrue (a+b == 100);
     }
 
+    @Test
+    public void simpleTestSup(){
+        int a = 1;
+        int b = 9;
+
+        System.out.println("It's gonna be OK!");
+        assertTrue (a<b );
+    }
+
 }
