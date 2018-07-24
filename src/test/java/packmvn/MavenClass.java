@@ -10,7 +10,7 @@ public class MavenClass {
 
     @org.testng.annotations.Test
     public void simpleTest(){
-        int a = 1;
+        int a = 10;
         int b = 2;
         int c =3;
         System.out.println("Hello");
@@ -20,7 +20,7 @@ public class MavenClass {
 
     @org.testng.annotations.Test
     public void simpleTestOK(){
-        int a = 1;
+        int a = 10;
         int b = 3;
         int d =4;
         System.out.println("World");
@@ -42,7 +42,7 @@ public class MavenClass {
         int b = 9;
 
         System.out.println("It's gonna be OK! SURE!!!");
-        Assert.assertTrue (a<b );
+        Assert.assertTrue (a>b );
     }
 
 }
